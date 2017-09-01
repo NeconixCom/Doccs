@@ -1,0 +1,92 @@
+﻿html, body, div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.page {
+    bottom: 0;
+    min-width: 300px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#content-placeholder {
+    width: 100%;
+}
+
+#content-placeholder-text {
+    padding: 0 4px 20px 4px;
+}
+
+.toolbar {
+    height: 60px;
+    padding: 12px 12px;
+    position: absolute;
+}
+
+.content-container {
+    bottom: 12px;
+    left: 12px;
+    overflow-y: auto;
+    position: absolute;
+    top: 60px;
+    right: 12px;
+}
+
+#content-text {
+    white-space: pre-wrap;
+}
+
+.content-editable-container {
+    bottom: 48px;
+    left: 12px;
+    position: absolute;
+    top: 60px;
+    right: 12px;
+}
+
+#content-editable-text, #content-editable-text-field {
+    bottom: 0;
+    font-size: 17px;
+    height: 100%;
+    left: 0;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+    bottom: 0;
+    padding: 12px 12px;
+    position: absolute;
+}
+
